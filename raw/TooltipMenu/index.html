@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Blueprint: Tooltip Menu</title>
+		<meta name="description" content="Blueprint: Tooltip Menu" />
+		<meta name="keywords" content="Tooltip Menu, navigation, tooltip, menu, css, web development, template" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>		 
+		<div class="container">
+			<ul id="cbp-tm-menu" class="cbp-tm-menu">
+				<li>
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#">Veggie made</a>
+					<ul class="cbp-tm-submenu">
+						<li><a href="#" class="cbp-tm-icon-archive">Sorrel desert</a></li>
+						<li><a href="#" class="cbp-tm-icon-cog">Raisin kakadu</a></li>
+						<li><a href="#" class="cbp-tm-icon-location">Plum salsify</a></li>
+						<li><a href="#" class="cbp-tm-icon-users">Bok choy celtuce</a></li>
+						<li><a href="#" class="cbp-tm-icon-earth">Onion endive</a></li>
+						<li><a href="#" class="cbp-tm-icon-location">Bitterleaf</a></li>
+						<li><a href="#" class="cbp-tm-icon-mobile">Sea lettuce</a></li>
+					</ul>
+				</li>				
+			</ul>			
+		</div>
+		<script src="js/cbpTooltipMenu.min.js"></script>
+		<script>
+			var menu = new cbpTooltipMenu( document.getElementById( 'cbp-tm-menu' ) );
+		</script>
+	</body>
+</html>

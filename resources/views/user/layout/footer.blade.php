@@ -1,14 +1,15 @@
 <!-- Footer Section Start -->
 <footer>
   <!-- Footer Area Start -->
-  <section class="footer-Content">
+  <section id="get-in-touch" class="footer-Content">
     <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-      <h3 class="logo-title">Basic</h3>
+      <h3 class="logo-title">GET IN TOUCh</h3>
       <div class="row">
         <div class="col-md-4 col-sm-6 col-xs-12">
           <div class="widget">                
             <div class="textwidget">
-              <p>Lorem ipsum dolor sit amet, con sectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, con sectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+              <p>To get in touch rovide us your email. We don't spam.
+              Feel free to contact us if you have any query.</p>
             </div>
             <form class="subscribe-box">
               <input placeholder="Your email" type="text">
@@ -20,23 +21,23 @@
           <div class="widget">
             <h3 class="block-title">Links</h3>
             <ul class="menu">
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Works</a></li>                
-              <li><a href="#">Pricing</a></li>  
-              <li><a href="#">Contact</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#services">Field Of Activity</a></li>
+              <li><a href="#why">Companies</a></li>                
+              <li><a href="#team">Board Of Directories</a></li>  
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
         </div>
         <div class="col-md-2 col-sm-6 col-xs-12">
           <div class="widget">
-            <h3 class="block-title">Services</h3>
+            <h3 class="block-title">Sister Concerns</h3>
             <ul class="menu">
-              <li><a href="#">Web Design</a></li>
-              <li><a href="#">Graphics Design</a></li>
-              <li><a href="#">Branding</a></li>
-              <li><a href="#">UX Consulting</a></li>
-              <li><a href="#">Mobile Apps</a></li>
+              <li><a href="#">Technika Ltd.</a></li>
+              <li><a href="#">Excellent Flexible Packaging Ltd.</a></li>
+              <li><a href="#">Excellent Jute Stick Carbon Industries Ltd.</a></li>
+              <li><a href="#">Opera International</a></li>
+              <li><a href="#">Marvellous Foils Ltd.</a></li>
             </ul>
           </div>
         </div>
@@ -81,16 +82,19 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <div class="site-info pull-left wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <p>Designed &amp; developed by <a rel="nofollow" href="#">Chonchol</a></p>
-          </div>              
-          <div class="bottom-social-icons social-icon pull-right  wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">                 
-            <a class="twitter" href="https://twitter.com/GrayGrids"><i class="fa fa-twitter"></i></a>
-            <a class="facebook"" href="https://web.facebook.com/GrayGrids"><i class="fa fa-facebook"></i></a> 
-            <a class="google-plus"" href="https://plus.google.com/+GrayGrids"><i class="fa fa-google-plus"></i></a>
-            <a class="linkedin" href="https://www.linkedin.com/GrayGrids"><i class="fa fa-linkedin"></i></a>
-            <a class="dribble" href="https://dribbble.com/GrayGrids"><i class="fa fa-dribbble"></i></a>
+          <div class="col-md-4 site-info pull-left wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <p>All rights reserved © 2017 <a rel="nofollow" style="font-weight: bold; color: #3498db" href="#">Technika Group</a></p>
+          </div> 
+          <div class="col-md-4 bottom-social-icons social-icon pull-right  wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">                 
+            <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+            <a class="facebook"" href="#"><i class="fa fa-facebook"></i></a> 
+            <a class="google-plus"" href="#"><i class="fa fa-google-plus"></i></a>
+            <a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+            <a class="dribble" href="#"><i class="fa fa-dribbble"></i></a>
           </div>
+          <div class="col-md-4 site-info pull-left wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <p>Designed &amp; developed by <a rel="nofollow" href="#" style="font-weight: bold; color: #3498db">Chonchol</a></p>
+          </div> 
         </div>
       </div>
     </div>
@@ -129,3 +133,8 @@
 <script src="{{ asset('user/js/form-validator.min.js') }}"></script>
 <script src="{{ asset('user/js/contact-form-script.js') }}"></script> 
 <script src="{{ asset('user/js/main.js') }}"></script>
+
+<script src="{{ asset('user/js/cbpTooltipMenu.min.js') }}"></script>
+<script>
+  var menu = new cbpTooltipMenu( document.getElementById( 'cbp-tm-menu' ) );
+</script>
