@@ -3,7 +3,7 @@
   <!-- Footer Area Start -->
   <section id="get-in-touch" class="footer-Content">
     <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-      <h3 class="logo-title">GET IN TOUCh</h3>
+      <h3 class="logo-title">GET IN TOUCH</h3>
       <div class="row">
         <div class="col-md-4 col-sm-6 col-xs-12">
           <div class="widget">                

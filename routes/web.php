@@ -12,5 +12,35 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('user/home');
+})->name('home');
+
+Route::get('brief', function () {
+    return view('user/brief');
+})->name('brief');
+
+Route::get('principles', function () {
+    return view('user/principles');
+})->name('principles');
+
+Route::get('field', function () {
+    return view('user/field');
+})->name('field');
+
+Route::get('companies', function () {
+    return view('user/companies');
+})->name('companies');
+
+Route::get('dashboard', function () {
+    return view('admin/dashboard');
+})->name('dashboard');
+
+Route::get('content', function () {
+    return view('admin/content');
+})->name('content');
+
+
+
+
+
+

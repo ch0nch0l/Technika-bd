@@ -20,3 +20,5 @@
     <link rel="stylesheet" href="{{ asset('user/css/responsive.css') }}">
 
     <script src="{{ asset('user/js/modernizr.custom.js') }}"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">

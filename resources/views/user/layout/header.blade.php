@@ -4,7 +4,7 @@
     <div class="overlay"></div>
     <nav class="navbar navbar-toggleable-sm fixed-top navbar-light bg-faded">
         <div class="container">
-          <a class="navbar-brand" href=""><img src="{{ asset('user/img/logo.png') }}" alt=""></a>          
+          <a class="navbar-brand" href="{{ route('home')}}"><img src="{{ asset('user/img/logo.png') }}" alt=""></a>          
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <i class="icon-menu"></i>
         </button>
@@ -16,24 +16,24 @@
               <li class="">
                   <a class="nav-link" href="#about">About Us</a>
                   <ul class="cbp-tm-submenu">
-                    <li><a href="#">Technika In Brief</a></li>
-                    <li><a href="#">Business Principles</a></li>
+                    <li><a href="{{ route('brief')}}">Technika In Brief</a></li>
+                    <li><a href="{{ route('principles')}}">Business Principles</a></li>
                   </ul>
               </li>
               <li class="nav-item">
                   <a class="nav-link" href="#services">Field of Activity</a>
                   <ul class="cbp-tm-submenu">
-                    <li><a href="#">All Fields in Detail</a></li>
+                    <li><a href="{{ route('field')}}">All Fields in Detail</a></li>
                   </ul>
               </li>          
               <li class="nav-item">
                   <a class="nav-link" href="#why">Companies</a>
                   <ul class="cbp-tm-submenu">
-                    <li><a href="#"><i class="fa fa-certificate"></i> &nbsp; Technika Ltd.</a></li>
-                    <li><a href="#"><i class="fa fa-certificate"></i> &nbsp; Excellent Flexible Packaging Ltd.</a></li>
-                    <li><a href="#"><i class="fa fa-certificate"></i> &nbsp; Excellent Jute Stick Carbon Industries Ltd.</a></li>
-                    <li><a href="#"><i class="fa fa-certificate"></i> &nbsp; Opera International</a></li>
-                    <li><a href="#"><i class="fa fa-certificate"></i> &nbsp; Marvellous Foils Ltd.</a></li>
+                    <li><a href="{{ route('companies')}}#technika"><i class="fa fa-certificate"></i> &nbsp; Technika Ltd.</a></li>
+                    <li><a href="{{ route('companies')}}#packaging"><i class="fa fa-certificate"></i> &nbsp; Excellent Flexible Packaging Ltd.</a></li>
+                    <li><a href="{{ route('companies')}}#jute"><i class="fa fa-certificate"></i> &nbsp; Excellent Jute Stick Carbon Industries Ltd.</a></li>
+                    <li><a href="{{ route('companies')}}#opera"><i class="fa fa-certificate"></i> &nbsp; Opera International</a></li>
+                    <li><a href="{{ route('companies')}}#marvellous"><i class="fa fa-certificate"></i> &nbsp; Marvellous Foils Ltd.</a></li>
                   </ul>
               </li>       
               <li class="nav-item">
@@ -47,9 +47,9 @@
       </div>
     </nav>     
 
-<div class="container">      
-    <div class="row justify-content-md-center">
-      <div class="col-md-10">
+    <div class="container">      
+      <div class="row justify-content-md-center">
+        <div class="col-md-10">
           <div class="item active">
             <div class="contents text-center">
               <h1 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">Welcome to Technika Group</h1>
@@ -59,12 +59,12 @@
               <!--<a rel="nofollow" href="https://rebrand.ly/basic-purchase" class="btn btn-border wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">Learn More</a>-->
               <div class="banner_bottom_btn wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="700ms">
                 <a href="#about" class="js-target-scroll"><i class="icon-mouse"></i></a>               
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-</div>
-</div> 
-</div> 
+      </div> 
+    </div> 
 
 </header>
 <!-- Header Section End --> 
